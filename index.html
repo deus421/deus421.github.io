@@ -1,24 +1,235 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
  <head>
     <meta charset="utf-8">
-    <title>Bootstrap Messing Around</title>
-    <link rel="stylesheet" href="css/main.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Personal Website</title>
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Font Mizz -->
+    <link rel="stylesheet" href="css/font-mfizz.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Text Font -->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Raleway' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
  </head>
-   
  <body>
-  <div class="container">
+ 	<div class="header">
+ 		<div class="container">
+ 			<nav class = "navbar navbar-inverse" role="navigation">
+ 				 <div class="navbar-header">
+ 				 	<button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+ 				 		<span class="sr-only">Toggle Navigation</span>
+ 				 		<span class="icon-bar"></span>
+ 				 		<span class="icon-bar"></span>
+ 				 		<span class="icon-bar"></span>
+ 				 	</button>
+ 				 	<a href="#" class="navbar-brand scroll-top">Home</a>
+ 				 </div>
+ 				 <!-- end navbar-header -->
+ 				 <div id="main-nav" class="collapse navbar-collapse">
+ 				 	<ul class="nav navbar-nav navbar-right">
+ 				 		<li><a href="#" class="scroll-link" data-id="Part1">Education</a></li>
+ 				 		<li><a href="#" class="scroll-link" data-id="Part2">Skills</a></li>
+ 				 		<li><a href="#" class="scroll-link" data-id="Part3">Experience</a></li>
+ 				 		<li><a href="#" class="scroll-link" data-id="Part4">Projects</a></li>
+ 				 	</ul>
+ 				 </div>
+ 				 <!-- end main-nav -->
+ 			</nav>
+ 			<!-- end navbar -->
+ 		</div>
+ 		<!-- end container -->
+ 	</div>
+ 	<!-- end header -->
+
+ 	<div class="page-section" data-type="background" data-speed="10" id="homePad">
+ 		<div class="container">
+	 		<div class="row text-center">
+				<div class="col-md-12 back"><img src="images/portrait.png" id="portrait" class="img-responsive img-rounded" alt="Portrait Image">
+					<h1 id="name">amadeusz szarek</h1>
+					<p>Web // Mobile // Developer</p>
+				</div>
+				<!-- end col-12 -->
+			</div>
+			<!-- end row -->
+		</div>
+		<!-- end container -->
+	</div>
+	<!-- end home -->
 
 
-    <div class="row">
-      <div class="purpleBG col-sm-12">TESTING</div>
-      <div class="blueBG col-sm-6">TESTING2</div>
+
+ 	<div id="Part1" class="page-section text-center" data-type="background" data-speed="10">
+ 		<div class="container">
+ 			<p class="caption"><strong>Education</strong></p>
+				<div class="row">
+					<div class="col-md-12">
+						<a href="http://www.rit.edu/" class="thumbnail" id="ritLogo">
+      						<img src="images/ritLogoB.jpg" alt="RIT Logo">
+    					</a>
+					</div>
+					<!-- end col-6 -->
+				</div>
+				<!-- end row -->
+				<div class="row">
+					<div class="col-md-12">
+						<h3>Bachelor of Science in Information Technology <br/> <small>Expected Graduation : May 2016 </small></h3>
+					</div>
+					<!-- end col-12 -->
+				</div>
+				<!-- end row -->
+				<div class="row">
+					<!-- end col-6 -->
+					<div class="col-md-12">
+						<h3>Relevent Courses</h3>
+							<ul>
+								<li>Problem Based Introduction to Computer Science</li>
+								<li>Introduction to Database and Data Modeling</li>
+								<li>Data Structures and Problem Solving</li>
+								<li>Object Oriented Programming</li>
+								<li>Software Engineering</li>
+							</ul>
+					</div>
+					<!-- end col-12 -->
+				</div>
+				<!-- end of row -->
+ 		</div>
+ 		<!-- end container -->
+ 	</div>
+ 	<!-- end part1 -->
+
+ 	<div id="Part2" data-type="background" data-speed="10" class="page-section">
+ 		<div class="container">
+ 		<p class="caption"><strong>Skills</strong></p>
+ 			<div class="row">
+ 				<div class="col-md-12">
+ 					<h3 class="text-center">Programming</h3>
+ 				</div>
+ 				<!-- end col-12 -->
+ 			</div>
+ 			<!-- end row -->
+ 			<div class="row">
+ 				<div class="col-md-2 col-xs-2 text-center">
+ 					<i class="icon-java iconHover"></i>
+ 				</div>
+ 				<div class="col-md-2 col-xs-2 text-center">
+ 					<i class="icon-cplusplus iconHover"></i>
+ 				</div>
+ 				<div class="col-md-2 col-xs-2 text-center">
+ 					<i class="icon-python iconHover"></i>
+ 				</div>
+ 				<div class="col-md-2 col-xs-2 text-center">
+ 					<i class="icon-html iconHover"></i>
+ 				</div>
+ 				<div class="col-md-2 col-xs-2 text-center">
+ 					<i class="icon-css iconHover"></i>
+ 				</div>
+ 				<div class="col-md-2 col-xs-2 text-center">
+ 					<i class="icon-mysql iconHover"></i>
+ 				</div>
+ 			</div>
+ 			<!-- end row -->
+ 			<div class="row">
+ 				<div class="col-md-12">
+ 					<h3 class="text-center">Operating Systems</h3>
+ 				</div>
+ 				<!-- end col-12 -->
+ 			</div>
+ 			<!-- end row -->
+ 			<div class="row">
+ 				<div class="col-md-4 col-xs-4 text-center">
+ 					<i class="icon-ubuntu iconHover"></i> 					
+ 				</div>
+ 				<div class="col-md-4 col-xs-4 text-center">
+ 					<i class="icon-osx iconHover"></i>  					
+ 				</div>
+ 				<div class="col-md-4 col-xs-4 text-center">
+ 					<i class="fa fa-windows iconHover"></i>  					
+ 				</div>
+ 			</div>
+ 			<!-- end row -->
+ 		</div>
+ 		<!-- end container -->
+ 	</div>
+ 	<!-- end part2 -->
+
+ 	<div id="Part3" class="page-section">
+ 		<div class="container">
+ 			<p class="caption"><strong>Experience</strong></p>
+ 			<!-- end row -->
+ 			<div class="row">
+ 				<div class="col-md-4">
+	 				<h2>Harris Corporation</h2>	
+ 				</div>
+ 				<!-- end col-4 -->
+ 				<div class="col-md-8">
+ 					<h3>Software Engineer Intern <br/> <small>January - August 2014</small></h3>
+ 				</div>
+ 				<!-- end col-6 -->	
+ 			</div>
+ 			<div class="row">
+ 				<div class="col-md-4">
+	 				<h2>Codan Radio</h2>	
+ 				</div>
+ 				<!-- end col-4 -->
+ 				<div class="col-md-8">
+ 					<h3>Radio Intern<br/> <small>June - August 2013</small></h3>
+ 				</div>
+ 				<!-- end col-6 -->	
+ 			</div>
+ 			<!-- end row -->
+ 		</div>
+ 		<!-- end container -->
+ 	</div>
+ 	<!-- end part3 -->
+
+ 	<div id="Part4" class="page-section">
+ 		<div class="container">
+ 			<p class="caption"><strong>Projects</strong></p>
+ 			<div class="row">
+ 				<div class="col-md-6 text-center">
+ 					<h2>Personal Website</h2>
+ 					<i class="fa fa-code iconHover" style="font-size:10em"></i>  
+ 					<p> Built a responsive, static website using Bootstrap, HTML, CSS, and JavaScript.  You're on it right now!</p>
+ 					<a href="https://github.com/deus421/deus421.github.io"><i class="fa fa-github-square iconHover pull-right" style="font-size:2em"></i></a>  
+ 				</div>
+ 				<!-- end col-6 -->
+ 				<div class="col-md-6 text-center">
+ 					<h2>Android Application</h2>
+ 					<i class="fa fa-android iconHover" style="font-size:10em"></i>
+ 					<p> Add information here about the android application that I am currently developing.</p>
+ 					<a href="#"><i class="fa fa-github-square iconHover pull-right" style="font-size:2em"></i></a>   
+ 				</div>
+ 				<!-- end col-6 -->
+ 			</div>
+ 			<!-- end row -->
+ 		</div>
+ 		<!-- end container -->
+ 	</div>
+ 	<!-- end part4 -->
+
+ 	<div class="container text-center">
+ 		<div class = "row">
+ 			<div class="col-md-4"><p class="text-muted">Download</p>
+ 			<i class="fa fa-download text-muted" style="font-size:1em"></i> add resume link hurr
+ 			</div>
+ 			<div class="col-md-4"><p class="text-muted">Contact Information</p>
+ 				<i class="fa fa-envelope text-muted" style="font-size:1em"></i> axs2931@rit.edu
+ 			</div>
+ 			<div class="col-md-4"><p class="text-muted">Credit</p>
+ 			</div>
+ 		</div>
     </div>
 
-  </div>
-
     <!-- Import Scripts -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
  </body>
 </html>
