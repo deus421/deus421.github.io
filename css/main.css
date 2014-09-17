@@ -132,4 +132,8 @@
 	.iconHover {
 		font-size: 2em;
 	}
+	#homePad{
+		background: none;
+		background-color: #eee;
+	}
 }
