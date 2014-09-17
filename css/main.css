@@ -63,12 +63,12 @@
 }
 
 .page-section#Part3 {
-
+	min-height: 400px;
 }
 
 .page-section#Part4 {
 	background-color: #eee;
-
+	min-height: 550px;
 }
 
 
