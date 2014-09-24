@@ -136,4 +136,7 @@
 		background: none;
 		background-color: #eee;
 	}
+	.text-center{
+		text-align: left;
+	}
 }
