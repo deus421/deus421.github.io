@@ -107,6 +107,12 @@
 	.navbar-nav {
 		float: right;
 	}
+	.page-section#Part1{
+		max-height: 200px;
+	}
+	.page-section#Part2{
+		max-height: 200px;
+	}
 }
 
 @media (max-width: 480px) {
